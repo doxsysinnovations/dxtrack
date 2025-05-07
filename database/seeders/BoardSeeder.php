@@ -20,7 +20,7 @@ class BoardSeeder extends Seeder
     {
         $boardList = ["Development", "Testing", "Design"];
 
-        $team = Team::where("name", "Doxsys")->first();
+        $team = Team::where("name", "Taskly")->first();
         $board =  Board::create([
             "team_id" => $team->id,
             "name" => "Developemnt",

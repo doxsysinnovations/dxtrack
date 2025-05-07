@@ -14,6 +14,11 @@ class TeamSeeder extends Seeder
      */
     public function run(): void
     {
+        Team::create([
+            "name" => "Taskly",
+            "pattern" => "zig-zag",
+            "description" => "Team for the Taskly web application, class assingment project.",
+        ]);
 
         Team::create([
             "name" => "Frawncis",
@@ -30,7 +35,7 @@ class TeamSeeder extends Seeder
         Team::create([
             "name" => "Laravel",
             "pattern" => "circle",
-            "description" => "Doxsys team for opn source Laravel application.",
+            "description" => "Taskly team for opn source Laravel application.",
         ]);
     }
 }
