@@ -16,7 +16,7 @@ class UserTeamSeeder extends Seeder
     public function run(): void
     {
         $emailMap = [
-            "Doxsys" => [
+            "Taskly" => [
                 "william@email.com",
                 "sevien@email.com",
                 "daffa@email.com",
